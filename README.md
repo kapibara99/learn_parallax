@@ -28,3 +28,5 @@ https://www.recapafteruse.co.uk/
 https://the-goonies.webflow.io/
 https://www.moooi.com/en/a-life-extraordinary#double-bubble
 
+## todo
+parallax.jsもうちょいマシにしたい

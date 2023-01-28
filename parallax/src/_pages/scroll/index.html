@@ -3,10 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>template</title>
+    <title>scroll</title>
   </head>
   <body>
-    <h1>title</h1>
+    <h1>scroll animations</h1>
+
+    <h2>scroll and pencil moving</h2>
+    <div class="pencil-area" style="background-color: #000; height: 300vh;">
+      <div style="height: 100vh;"></div>
+      <div style="height: 100vh; position: relative;">
+        <div class="pencil-area__wrap" id="pencil-wrapper">
+          <img src="../_common/images/pen-a.png" class="pencil-area__image -a" id="pen-a" alt="">
+          <img src="../_common/images/pen-b.png" class="pencil-area__image -b" id="pen-b" alt="">
+        </div>
+      </div>
+      <div style="height: 100vh;"></div>
+    </div>
 
     <div class="content"></div>
     <script type="module" src="./main.ts"></script>
