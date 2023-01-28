@@ -1,6 +1,6 @@
 import { resolve } from "path";
 import { defineConfig } from "vite";
-
+// import autoprefixer from "autoprefixer";
 const ROOT = "./src/_pages"
 
 export default defineConfig({
@@ -18,4 +18,14 @@ export default defineConfig({
       },
     },
   },
+  server: {
+    watch: {
+      usePolling: true
+    }
+  }
+  // css: {
+  //   postcss: {
+  //     plugins: [autoprefixer],
+  //   },
+  // },
 });
