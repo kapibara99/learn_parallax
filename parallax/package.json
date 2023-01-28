@@ -8,12 +8,17 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/parallax-js": "^3.1.0",
     "autoprefixer": "^10.4.13",
     "sass": "^1.57.1",
     "typescript": "^4.5.4",
     "vite": "^2.9.7"
   },
   "dependencies": {
+    "draggable": "^4.2.0",
+    "gsap": "^3.11.4",
+    "parallax-js": "^3.1.0",
+    "scrolltrigger": "^1.0.1",
     "simple-parallax-js": "^5.6.2"
   }
 }

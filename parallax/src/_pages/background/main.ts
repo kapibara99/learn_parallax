@@ -19,3 +19,12 @@ const img03 = document.getElementById("background-test-03") !
 new simpleParallax(img03,{
   scale:1.5,
 });
+
+
+// parallax.js demo
+// row scroll
+import Parallax from 'parallax-js';
+const scene = document.getElementById('scene') !
+var parallaxInstance = new Parallax(scene,{
+  hoverOnly:true,
+});
