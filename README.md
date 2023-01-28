@@ -16,12 +16,15 @@
 
 ## こういうやつ
 https://blog.adobe.com/jp/publish/2020/02/25/cc-web-best-practices-for-parallax-websites
-## プラグインとかのベンチマーク
 
-##　技法
+### background
+https://simpleparallax.com/
 
-### ベーシック
-### 気持ち悪いパターン
-### ちょっと高度
-### だいぶ高度（例だけ）
+### scroll
+https://qodeinteractive.com/catalog/haar/
+https://www.recapafteruse.co.uk/
+
+### great
+https://the-goonies.webflow.io/
+https://www.moooi.com/en/a-life-extraordinary#double-bubble
 
