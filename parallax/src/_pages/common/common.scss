@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+button,input{
+  appearance: none;
+}
+a,button,[role="button"]{
+  cursor: pointer;
+  color: inherit;
+  &:hover{
+    opacity: 0.5;
+  }
+}
+body{
+  color: #333;
+}
+.page-title{
+  text-align: center;
+}
+
+.index{
+  text-decoration: underline;
+}
