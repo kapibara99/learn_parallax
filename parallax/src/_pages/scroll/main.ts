@@ -10,7 +10,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-const pencilWrapper = "#pencil-wrapper";
 const pencilA = "#pen-a";
 const pencilB = "#pen-b";
 const createObj = (elName:string,flag:boolean) => {

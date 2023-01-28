@@ -1,0 +1,76 @@
+.top{
+  background-image: url("../_common/images/row-test-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__title{
+    font-size: 120px;
+    margin: 0;
+    span{
+      display: inline-block;
+    }
+  }
+}
+
+/*
+========================================
+kv
+========================================
+*/
+.kv{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  &__background{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    &.-leaf{
+      background-image: url("../_common/images/leaf.png");
+      z-index: 1;
+    }
+    &.-town{
+      background-image: url("../_common/images/row-test-01.jpg");
+      z-index: 0;
+    }
+  }
+  &__inner{
+    position: relative;
+    z-index: 2;
+  }
+  &__title{
+    font-size: 120px;
+    text-align: center;
+    font-weight: bold;
+  }
+  &__content{
+    opacity: 0;
+    font-size: 20px;
+    &.-white{
+      color: #fff;
+    }
+    .-big{
+      font-size: 3em;
+    }
+    span{
+      display: block;
+      margin:auto;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}
