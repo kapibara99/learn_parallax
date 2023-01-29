@@ -46,9 +46,6 @@ const copiedKv = gsap.timeline({
     pin: true,
   },
 })
-copiedKv.set(".kv__title",{
-  opacity:0
-})
 copiedKv.to(".kv__background.-leaf",{
   scale:2.5,
   duration:5
@@ -79,8 +76,6 @@ copiedKv.to(".kv__background.-leaf",{
 .to(".kv__content",{
   opacity:0,
   duration:2
-},"=+1")
+},"=+1");
 
 
-copiedKv.fromTo(".kv__title",{},{});
-copiedKv.fromTo(".kv__content",{},{});

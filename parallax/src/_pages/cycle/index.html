@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cycle</title>
+  </head>
+  <body style="height: 100vh !important; min-height: auto; overflow: hidden;">
+
+    <div class="cycle-kv">
+      <div class="cycle-bg wrapper-dark"></div>
+      <div id="cycle-kv-wrap">
+        <div data-depth="0.1">
+          <div class="cycle-kv__layer -back-01 wrapper-dark">
+            <!-- <img src="../_common/images/mo-bg-back.webp" alt=""> -->
+            <img src="../_common/images/mo-bg-front.webp" alt="">
+          </div>
+          <div class="cycle-kv__layer -back-02 wrapper-dark">
+            <img src="../_common/images/mo-bg-front.webp" alt="">
+          </div>
+        </div>
+        <div data-depth="0.4" class="wrapper-dark">
+          <div class="cycle-kv__layer -fl-01">
+            <img src="../_common/images/mo-fl-01.webp" alt="">
+          </div>
+          <div class="cycle-kv__layer -fl-02">
+            <img src="../_common/images/mo-fl-01.webp" alt="">
+          </div>
+        </div>
+        <div data-depth="0.5">
+          <div class="cycle-kv__layer -monky -n-01">
+            <img src="../_common/images/mo-02-right.webp" alt="">
+          </div>
+          <div class="cycle-kv__layer -monky -n-02">
+            <img src="../_common/images/mo-01-bottom.webp" alt="">
+          </div>
+          <div class="cycle-kv__layer -monky -n-03">
+            <img src="../_common/images/mo-01-left.webp" alt="">
+          </div>
+        </div>
+        <div data-depth="0.05">
+          <div class="cycle-kv__inner">
+            <h1>title</h1>
+            <div class="cycle-kv__message">1234567890</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

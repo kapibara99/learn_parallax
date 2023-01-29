@@ -22,7 +22,6 @@ new simpleParallax(img03,{
 
 
 // parallax.js demo
-// row scroll
 import Parallax from 'parallax-js';
 const scene = document.getElementById('scene') !
 var parallaxInstance = new Parallax(scene,{
